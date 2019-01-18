@@ -1,0 +1,3 @@
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/DifferenceEngine/bin/Release/DifferenceEngine.dll
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/DifferenceEngine/obj/Release/DifferenceEngine.csproj.CoreCompileInputs.cache
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/DifferenceEngine/obj/Release/DifferenceEngine.dll

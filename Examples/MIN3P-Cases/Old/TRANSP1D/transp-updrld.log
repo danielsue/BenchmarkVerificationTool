@@ -1,0 +1,1394 @@
+#Program     : MIN3P-HPC.
+#Version     : 1.0.672.0
+#Commit date : 2019/01/18 12:42:29
+#Build date  : 2019/01/18 13:21:54
+#Repository  : https://biot.eos.ubc.ca/svn/min3p_thcm/branches/dsu_new_add_18dec
+#Platform    : Release_X64
+#System      : Default
+#Solver      : WS209
+#Parallel    : Sequential
+************************************************************************
+log file for dataset transp-updrld
+************************************************************************
+
+
+memory requirements for variably-saturated flow simulation:
+
+estimated number of connections:               10500
+actual number of connections:                   1498
+estimated number of factored connections:       4494
+memory requirement during factorization:        2994
+actual number of factored connections:          1498
+
+initial condition - variably saturated flow
+------------------------------------------------------------------------
+
+boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+enter timeloop
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+timestep:       1 time: 1.000E-10 days    delt: 1.000E-10 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.9738D-05   1.8432D-41        1           2           1
+     2       1.4197D-08   7.9008D-42        1         500           0
+
+------------------------------------------------------------------------
+timestep:       2 time: 6.000E-10 days    delt: 5.000E-10 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.9870D-04   1.0432D-39        1           2           1
+     2       1.0650D-09   2.7551D-44        1           2           0
+
+------------------------------------------------------------------------
+timestep:       3 time: 3.100E-09 days    delt: 2.500E-09 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4934D-03   4.8839D-38        1           2           2
+     2       3.7335D-08   1.4776D-44        1           2           0
+
+------------------------------------------------------------------------
+timestep:       4 time: 1.560E-08 days    delt: 1.250E-08 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.4650D-03   1.9994D-39        1           2           2
+     2       9.8616D-07   2.0527D-43        1           2           0
+
+------------------------------------------------------------------------
+timestep:       5 time: 7.810E-08 days    delt: 6.250E-08 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.7272D-02   1.1370D-38        1           2           6
+     2       2.4821D-05   1.6187D-43        1           2           1
+     3       5.5618D-11   6.7839D-46        1           2           0
+
+------------------------------------------------------------------------
+timestep:       6 time: 3.906E-07 days    delt: 3.125E-07 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.8506D-01   5.0089D-38        1           2           8
+     2       6.0952D-04   7.3773D-40        1           2           1
+     3       7.7572D-09   6.8421D-46        1           2           0
+
+------------------------------------------------------------------------
+timestep:       7 time: 1.953E-06 days    delt: 1.562E-06 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       8.9396D-01   4.5367D-36        1           2          52
+     2       1.3825D-02   4.6542D-41        1           2           2
+     3       3.4519D-06   5.0157D-44        1           2           1
+     4       6.3994D-12   6.6588D-46        1           2           0
+
+------------------------------------------------------------------------
+timestep:       8 time: 9.766E-06 days    delt: 7.813E-06 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.8099D+00   3.8526D-34        1           2         498
+     2       2.2358D-01   6.7547D-38        1           2           4
+     3       9.0762D-04   1.4106D-37        1           2           2
+     4       1.6436D-08   3.6734D-40        1           2           0
+
+------------------------------------------------------------------------
+timestep:       9 time: 4.883E-05 days    delt: 3.906E-05 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0488D+01   9.3129D-35        1           2         499
+     2       1.2936D+00   2.2591D-36        1           2           5
+     3       3.5403D-02   8.3142D-39        1           2           3
+     4       2.3769D-05   2.3510D-38        1           2           1
+     5       5.5584D-11   1.9266D-46        1           2           0
+
+------------------------------------------------------------------------
+timestep:      10 time: 2.441E-04 days    delt: 1.953E-04 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2551D+01   9.8663D-32        1           2         499
+     2       1.7501D+00   1.5415D-33        1           2          22
+     3       2.3498D-01   3.3705D-34        1           3           7
+     4       1.2185D-03   4.7581D-36        1           2           4
+     5       7.4072D-08   3.5876D-42        1           3           0
+
+------------------------------------------------------------------------
+timestep:      11 time: 7.847E-04 days    delt: 5.406E-04 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.0034D+00   1.1476D-32        1           3         498
+     2       5.1123D-01   8.7215D-33        1           2          48
+     3       1.2194D-02   7.7324D-35        1           2           9
+     4       2.6415D-05   1.1847D-38        1           3           3
+     5       2.6570D-10   5.3612D-43        1           3           0
+
+------------------------------------------------------------------------
+timestep:      12 time: 2.704E-03 days    delt: 1.919E-03 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.9807D+00   2.0062D-31        1           3         499
+     2       1.7300D+00   4.6863D-32        1           3         137
+     3       3.7585D-01   1.4025D-33        1           4          23
+     4       1.7563D-02   2.7666D-34        1           3          18
+     5       4.5343D-05   1.4694D-38        1           3           8
+     6       1.2134D-09   2.6792D-41        1           4           0
+
+------------------------------------------------------------------------
+timestep:      13 time: 8.421E-03 days    delt: 5.717E-03 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.0282D+00   2.3722D-31        1           4         499
+     2       1.0483D+00   2.2561D-32        1           4         310
+     3       1.2999D-01   1.5566D-33        1           4          43
+     4       1.9225D-03   1.5160D-34        1           4          25
+     5       5.6444D-07   2.8434D-38        1           4           0
+
+------------------------------------------------------------------------
+timestep:      14 time: 2.844E-02 days    delt: 2.002E-02 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.2308D+00   4.7020D-31        1           6         499
+     2       6.2686D-01   3.3096D-32        1           6         492
+     3       7.0981D-02   8.8901D-33        1           6          88
+     4       4.7875D-04   3.5007D-35        1           6          28
+     5       1.2925D-08   1.7930D-39        1           6           0
+
+------------------------------------------------------------------------
+timestep:      15 time: 1.091E-01 days    delt: 8.071E-02 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.7378D+00   1.0529D-30        1           9         499
+     2       2.9919D-01   8.8055D-32        1           9         498
+     3       1.8153D-02   6.5750D-33        1           9         255
+     4       6.4476D-05   2.1396D-35        1           9          33
+     5       4.1642D-09   2.1168D-39        1          13           0
+
+------------------------------------------------------------------------
+timestep:      16 time: 5.127E-01 days    delt: 4.035E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       6.3374D-01   4.6172D-30        1          12         499
+     2       6.5176D-02   3.8336D-31        1          12         498
+     3       9.1052D-04   1.4957D-32        1          13         493
+     4       1.1839D-06   4.0672D-35        1         500           6
+     5       1.8859D-09   4.6220D-38        1         459           0
+
+------------------------------------------------------------------------
+timestep:      17 time: 1.000E+00 days    delt: 4.873E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2713D-01   1.8987D-29        1         454         499
+     2       5.0672D-03   1.1894D-31        1         455         497
+     3       4.1130D-05   4.5278D-33        1         500         442
+     4       1.7121D-07   1.2369D-36        1         500           0
+
+write contour data, T =   1.0000E+00 days        
+------------------------------------------------------------------------
+
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      18 time: 2.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.8214D+00   4.3595D-29        1           2         499
+     2       3.5607D+00   1.0024D-29        1           2         499
+     3       4.4322D+00   1.8246D-30        1           2         499
+     4       5.3607D+00   4.7076D-31        1           2         499
+     5       6.0897D+00   6.3373D-31        1           2         499
+     6       6.0111D+00   4.2328D-31        1           2         499
+     7       4.3348D+00   1.8943D-31        1           2         499
+     8       1.6031D+00   1.5626D-32        1           2         499
+     9       1.6177D-01   3.3357D-33        1           2         440
+    10       1.4454D-03   5.0848D-35        1           2          55
+    11       1.1300D-07   3.9947D-38        1           2           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      19 time: 2.597E+00 days    delt: 5.975E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.8479D+00   9.0773D-30        1           2         499
+     2       1.7363D-01   1.9535D-29        1           2         499
+     3       1.4197D-02   4.9582D-31        1         500         499
+     4       1.3832D-04   6.7321D-33        1         500         379
+     5       1.1494D-07   4.0930D-36        1         500           0
+
+------------------------------------------------------------------------
+timestep:      20 time: 3.000E+00 days    delt: 4.025E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.1764D-01   2.0149D-29        1           2         499
+     2       6.3924D-03   5.5500D-31        1         441         499
+     3       5.6414D-05   4.5284D-33        1         497         495
+     4       3.1155D-07   9.2469D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      21 time: 4.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.3027D-01   7.8380D-29        1           2         499
+     2       1.5411D-01   1.1654D-29        1         500         499
+     3       1.3095D-02   2.5431D-31        1         500         499
+     4       1.1210D-04   5.7450D-33        1         500         396
+     5       1.0529D-07   1.6500D-36        1         500           0
+
+write contour data, T =   4.0000E+00 days        
+------------------------------------------------------------------------
+
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      22 time: 5.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       8.2422D-01   1.9504D-29        1           2         499
+     2       3.5187D-02   2.8890D-30        1         500         499
+     3       7.5024D-04   6.1926D-32        1         500         498
+     4       3.8471D-06   5.4611D-35        1         500          88
+     5       6.1775D-09   5.4608D-37        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      23 time: 6.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1063D+00   6.2828D-29        1           2         499
+     2       1.9190D-02   3.8349D-30        1         500         499
+     3       2.8786D-04   1.0961D-32        1         500         497
+     4       1.5412D-06   7.3716D-35        1         500          25
+     5       3.2953D-09   1.0549D-37        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      24 time: 7.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2344D+00   6.8824D-29        1           2         499
+     2       1.8357D-02   9.4998D-31        1           4         499
+     3       2.4911D-04   1.7896D-32        1           2         496
+     4       8.7622D-07   1.6260D-35        1         500           0
+
+write contour data, T =   7.0000E+00 days        
+------------------------------------------------------------------------
+
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      25 time: 8.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3298D+00   2.3346D-29        1           2         499
+     2       6.8907D-02   3.6891D-30        1         500         499
+     3       1.3553D-03   1.9717D-32        1         500         498
+     4       2.4801D-06   2.0195D-35        1         499          28
+     5       3.6859D-09   2.2983D-38        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      26 time: 9.000E+00 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3842D+00   2.5824D-29        1           2         499
+     2       3.7549D-02   2.0259D-30        1         482         499
+     3       2.6046D-04   1.5989D-32        1         479         496
+     4       8.8693D-07   1.0592D-35        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      27 time: 1.000E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3985D+00   1.9051D-29        1           2         499
+     2       3.0862D-02   9.7298D-31        1           4         499
+     3       2.0188D-04   1.0690D-32        1           2         493
+     4       4.3538D-07   2.1160D-35        1         367           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      28 time: 1.100E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3726D+00   2.4152D-29        1           2         499
+     2       3.4512D-02   7.2197D-31        1           4         499
+     3       1.6974D-04   1.0340D-32        1           2         486
+     4       2.5216D-07   6.5110D-36        1         369           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      29 time: 1.200E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3150D+00   3.0094D-29        1           2         499
+     2       3.4513D-02   7.3141D-31        1           4         499
+     3       1.3241D-04   6.2439D-33        1           2         472
+     4       1.3190D-07   3.7707D-36        1         383           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      30 time: 1.300E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2697D+00   2.6680D-29        1           3         499
+     2       2.9903D-02   1.7805D-30        1           4         499
+     3       9.4563D-05   7.4030D-33        1           2         447
+     4       1.3844D-07   3.8014D-36        1         359           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      31 time: 1.400E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2245D+00   3.6675D-29        1           3         499
+     2       2.7336D-02   6.8721D-31        1           4         499
+     3       8.1205D-05   2.2182D-33        1           2         463
+     4       1.1929D-07   9.4342D-36        1         351           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      32 time: 1.500E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1857D+00   1.7376D-29        1           3         499
+     2       2.4739D-02   3.4029D-31        1           5         499
+     3       6.6370D-05   3.2382D-34        1           2         459
+     4       1.0055D-07   3.4648D-36        1         339           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      33 time: 1.600E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1514D+00   2.4360D-29        1           3         499
+     2       2.2933D-02   6.7567D-31        1           5         499
+     3       5.6874D-05   5.7012D-34        1           2         459
+     4       1.0610D-07   3.2788D-36        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      34 time: 1.700E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1228D+00   1.7606D-29        1           3         499
+     2       2.1716D-02   9.1482D-31        1         490         499
+     3       4.9122D-05   2.6259D-33        1         318         456
+     4       1.7805D-07   1.7590D-36        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      35 time: 1.800E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0969D+00   1.7293D-29        1           3         499
+     2       1.9959D-02   8.6227D-31        1           5         499
+     3       4.5435D-05   2.3954D-33        1         311         450
+     4       1.1162D-07   4.3868D-36        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      36 time: 1.900E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0726D+00   1.5645D-29        1           3         499
+     2       1.8881D-02   7.0075D-31        1           5         499
+     3       4.0238D-05   6.4841D-34        1         305         451
+     4       1.4962D-07   9.3292D-37        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      37 time: 2.000E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0481D+00   1.3365D-29        1           3         499
+     2       1.8044D-02   3.2862D-31        1           6         499
+     3       3.4584D-05   1.0414D-33        1         300         440
+     4       8.4745D-08   6.2118D-37        1         499           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      38 time: 2.100E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4486D+00   3.8476D-29        1         500         499
+     2       2.6592D-01   7.1207D-30        1         500         499
+     3       1.7413D-02   1.5181D-32        1         500         499
+     4       6.8425D-05   1.2168D-34        1         500         222
+     5       1.0227D-08   1.2478D-37        1         443           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      39 time: 2.200E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.7408D-01   2.7707D-29        1           3         499
+     2       9.6299D-02   7.1245D-31        1         500         499
+     3       1.8913D-03   1.7947D-32        1         500         446
+     4       1.0097D-06   3.7869D-36        1         486           3
+     5       2.0390D-09   2.2822D-38        1         477           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      40 time: 2.300E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.2982D-01   1.4540D-29        1           3         499
+     2       5.6528D-02   3.0193D-30        1         500         499
+     3       1.8394D-04   1.5013D-33        1         500         478
+     4       5.2876D-07   1.0647D-35        1         489           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      41 time: 2.400E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.5337D+00   4.7987D-29        1         500         499
+     2       1.0510D+00   8.2964D-29        1         500         499
+     3       6.4644D-01   1.9810D-29        1         500         499
+     4       1.6851D-01   9.3064D-31        1         500         499
+     5       9.0555D-03   1.1335D-31        1         500         385
+     6       2.6413D-05   3.9284D-35        1         500          26
+     7       2.9352D-09   4.5207D-38        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      42 time: 2.500E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0181D+00   5.3132D-29        1         500         499
+     2       3.3813D-01   5.5909D-30        1         500         499
+     3       2.8196D-02   2.1027D-32        1         500         499
+     4       1.7305D-04   8.3813D-34        1         500         297
+     5       2.8976D-08   3.5603D-37        1         452           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      43 time: 2.600E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.4810D+00   7.7186D-29        1         500         499
+     2       9.4522D-01   7.1945D-28        1         480         499
+     3       8.5718D-01   8.8342D-30        1         499         499
+     4       6.9028D-01   7.3237D-29        1         500         499
+     5       3.0859D-01   1.8884D-29        1         500         499
+     6       4.5186D-02   9.6609D-31        1         500         499
+     7       8.7351D-04   3.9824D-33        1         500         239
+     8       4.5123D-07   2.4342D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      44 time: 2.700E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.2043D+00   6.3143D-29        1         417         499
+     2       7.7423D-01   3.9921D-29        1         386         499
+     3       4.1645D-01   5.5274D-29        1         462         499
+     4       1.0964D-01   3.4969D-30        1         480         499
+     5       6.2911D-03   6.9182D-31        1         488         499
+     6       3.5796D-05   1.7744D-33        1         500         469
+     7       5.9488D-08   6.1923D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      45 time: 2.800E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.3641D+00   1.9732D-28        1         222         499
+     2       4.8351D-01   1.0550D-28        1         246         499
+     3       7.9327D-02   1.2162D-29        1         276         499
+     4       1.9904D-03   3.9291D-31        1         289         499
+     5       8.4266D-06   7.7711D-34        1         231         485
+     6       2.6950D-08   4.1945D-36        1         277           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      46 time: 2.900E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.9811D+00   1.4165D-28        1           4         499
+     2       4.0845D-01   2.2505D-29        1           2         499
+     3       3.4572D-02   4.5103D-31        1           4         498
+     4       1.6279D-04   4.8408D-33        1           3         383
+     5       2.4368D-07   1.0018D-35        1           3           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      47 time: 3.000E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       8.2197D+00   1.5300D-28        1           3         499
+     2       6.0693D-01   4.2552D-29        1           7         499
+     3       9.3592D-02   7.2431D-30        1           2         498
+     4       2.0446D-04   4.7425D-32        1         500         487
+     5       5.4006D-07   1.1082D-34        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      48 time: 3.100E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.3801D+00   3.6993D-29        1           3         499
+     2       1.1897D+00   1.6042D-29        1           3         499
+     3       7.3852D-02   3.8842D-31        1           6         499
+     4       3.8610D-04   2.2847D-33        1          10         412
+     5       2.0750D-07   8.1461D-36        1           2           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      49 time: 3.200E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.1169D+00   3.6939D-29        1           2         499
+     2       3.0676D-01   7.8736D-30        1           3         499
+     3       4.8185D-03   3.7537D-32        1           5         498
+     4       1.5689D-06   7.3016D-35        1         500          38
+     5       3.8154D-09   2.6283D-37        1         435           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      50 time: 3.300E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.7366D-01   4.9753D-29        1           2         499
+     2       8.6690D-02   1.2007D-29        1         500         499
+     3       3.6208D-03   1.1199D-31        1         500         498
+     4       1.3486D-05   1.3940D-33        1         500         362
+     5       2.0579D-08   3.3640D-36        1         461           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      51 time: 3.400E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.3142D-01   1.3822D-29        1           2         499
+     2       1.5129D-02   6.2879D-31        1           2         499
+     3       1.0608D-04   3.9097D-33        1         500         491
+     4       2.0902D-07   3.2943D-35        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      52 time: 3.500E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.9893D-01   2.8497D-29        1           2         499
+     2       4.4908D-02   2.7953D-30        1         500         499
+     3       9.8487D-04   3.9982D-32        1         500         498
+     4       1.8729D-06   9.2903D-35        1         500          10
+     5       2.6024D-09   1.6547D-37        1         471           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      53 time: 3.600E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0324D+00   1.0148D-28        1           2         499
+     2       4.6079D-02   2.7175D-30        1         500         499
+     3       9.3083D-04   1.2716D-32        1         500         498
+     4       2.0102D-06   1.6498D-35        1         500          17
+     5       3.5933D-09   4.2912D-37        1         468           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      54 time: 3.700E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2207D+00   2.5354D-29        1           2         499
+     2       3.3762D-02   2.9597D-30        1         500         499
+     3       4.7587D-04   2.3255D-33        1         500         497
+     4       1.0041D-06   1.7373D-35        1           2           1
+     5       2.6873D-09   4.9550D-38        1         473           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      55 time: 3.800E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3763D+00   3.7307D-29        1           2         499
+     2       4.0030D-02   6.1915D-30        1         500         499
+     3       5.1722D-04   1.0579D-32        1         500         497
+     4       1.0730D-06   2.1609D-35        1           2           2
+     5       4.2909D-09   1.0528D-37        1           2           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      56 time: 3.900E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4630D+00   1.3107D-29        1           2         499
+     2       3.2789D-02   3.1280D-30        1         500         499
+     3       2.7349D-04   4.3003D-33        1         500         494
+     4       7.8195D-07   6.0876D-36        1         452           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      57 time: 4.000E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4953D+00   1.7893D-29        1           2         499
+     2       3.4388D-02   1.1901D-30        1           5         499
+     3       1.9034D-04   3.2287D-33        1           2         491
+     4       3.6693D-07   4.9276D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      58 time: 4.100E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.5182D+00   6.1221D-29        1           3         499
+     2       3.6839D-02   2.5013D-30        1           5         499
+     3       1.8477D-04   4.4878D-33        1         317         489
+     4       5.5565D-07   2.0130D-35        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      59 time: 4.200E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.5156D+00   1.4231D-29        1           3         499
+     2       3.9192D-02   2.6461D-30        1           5         499
+     3       1.4659D-04   3.9909D-33        1           2         486
+     4       4.8101D-07   5.1491D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      60 time: 4.300E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4941D+00   2.1423D-29        1           3         499
+     2       3.9036D-02   9.0904D-31        1           5         499
+     3       1.2544D-04   1.5994D-33        1           2         486
+     4       3.7930D-07   3.5208D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      61 time: 4.400E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4486D+00   4.0540D-29        1           3         499
+     2       3.8180D-02   6.0252D-31        1           5         499
+     3       1.0973D-04   1.2673D-33        1           2         487
+     4       1.2413D-07   9.0374D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      62 time: 4.500E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4000D+00   1.9253D-29        1           3         499
+     2       3.5082D-02   5.4155D-31        1           5         499
+     3       8.7058D-05   9.2823D-34        1           2         486
+     4       1.3980D-07   2.6817D-36        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      63 time: 4.600E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3402D+00   1.0671D-29        1           3         499
+     2       3.2420D-02   2.9400D-31        1           5         499
+     3       7.3396D-05   5.0500D-34        1           2         480
+     4       4.4051D-08   9.1936D-37        1         500           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      64 time: 4.700E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2667D+00   1.7654D-29        1           3         499
+     2       2.9480D-02   3.5019D-31        1           5         499
+     3       6.0280D-05   4.7061D-34        1           2         368
+     4       2.8023D-08   5.4127D-37        1         426           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      65 time: 4.800E+01 days    delt: 1.000E+00 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.7965D+00   1.4310D-28        1         500         499
+     2       2.9482D+00   1.3321D-25        1         385         499
+     3       1.5523D+00   9.4012D-27        1         340         499
+     4       2.0610D+00   6.9966D-27        1         412         499
+     5       9.2252D-01   2.9966D-27        1         477         499
+     6       8.4716D-01   2.9788D-28        1         482         499
+     7       8.0137D-01   1.8413D-28        1         485         499
+     8       6.2857D-01   8.2053D-29        1         485         499
+     9       2.8963D-01   9.8557D-30        1         485         499
+    10       5.1582D-02   2.2875D-31        1         485         499
+    11       1.6627D-03   4.1721D-32        1         485         499
+    12       2.3048D-06   1.4928D-35        1         500          16
+    13       1.2870D-09   1.1681D-38        1         484           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      66 time: 4.896E+01 days    delt: 9.596E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1645D+00   6.1971D-29        1         350         499
+     2       1.7177D-01   3.8489D-30        1         367         499
+     3       7.4988D-03   7.0869D-31        1         378         498
+     4       2.0687D-05   9.6509D-34        1         314         481
+     5       5.1708D-08   1.8378D-36        1         247           0
+
+------------------------------------------------------------------------
+timestep:      67 time: 4.900E+01 days    delt: 4.042E-02 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.7305D-02   1.7675D-31        1         329         499
+     2       1.9407D-04   9.9238D-34        1         349         452
+     3       7.2181D-08   2.9807D-37        1         467           0
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+timestep:      68 time: 4.920E+01 days    delt: 2.021E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.4468D-01   1.0875D-29        1         500         499
+     2       4.8206D-02   2.8764D-31        1         500         498
+     3       8.8714D-04   2.5313D-33        1         500         311
+     4       7.5162D-07   3.1348D-36        1         500           0
+
+------------------------------------------------------------------------
+timestep:      69 time: 5.000E+01 days    delt: 7.979E-01 days    picard iter:  1
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary For Flow:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.9563D-01   2.3411D-29        1           3         499
+     2       3.8135D-02   5.5565D-31        1         493         499
+     3       4.9283D-04   6.3092D-33        1         498         425
+     4       6.3774D-07   7.9921D-36        1         500           0
+
+write contour data, T =   5.0000E+01 days        
+------------------------------------------------------------------------
+
+
+update boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+
+
+statistics - variably saturated flow ...
+------------------------------------------------------------------------
+
+total number of Newton iterations       =        320
+total number of solver iterations       =        320
+
+general run specific statistics ...
+------------------------------------------------------------------------
+
+number of failed time steps             =          0
+total number of time steps              =         69
+total number of coupling iterations     =         69
+cputime  =  0.61 sec
+------------------------------------------------------------------------
+
+         ***************** normal exit *****************
+
+

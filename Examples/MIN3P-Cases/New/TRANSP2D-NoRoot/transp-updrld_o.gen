@@ -1,0 +1,229 @@
+#Program     : MIN3P-HPC.
+#Version     : 1.0.672.0
+#Commit date : 2019/01/18 12:42:29
+#Build date  : 2019/01/18 13:21:54
+#Repository  : https://biot.eos.ubc.ca/svn/min3p_thcm/branches/dsu_new_add_18dec
+#Platform    : Release_X64
+#System      : Default
+#Solver      : WS209
+#Parallel    : Sequential
+generic output file for dataset transp-updrld
+
+------------------------------------------------------------------------
+global control parameters
+------------------------------------------------------------------------
+
+transpiration 2D couplage rld                                           
+
+simulation of:
+transient variably saturated flow 
+
+------------------------------------------------------------------------
+spatial discretization
+------------------------------------------------------------------------
+
+
+spatial discretization for global grid
+number of control volumes in x-direction        =         30
+number of control volumes in y-direction        =          1
+number of control volumes in z-direction        =         30
+total number of control volumes                 =        900
+
+------------------------------------------------------------------------
+time step control - global system
+------------------------------------------------------------------------
+
+start time of simulation                        =  0.000E+00 days        
+initial time step                               =  1.000E-10 days        
+max. time step                                  =  1.000E+00 days        
+min. time step                                  =  1.000E-10 days        
+
+------------------------------------------------------------------------
+control parameters - variably saturated flow
+------------------------------------------------------------------------
+
+input of boundary and initial conditions in terms of hydraulic head
+upstream weighting of relative permeabilities        
+increment for numerical differentiation         =  1.000E-04
+max. number of newton iterations                =         15
+convergence tolerance                           =  1.000E-06
+anticipated change in saturation per time step  =  1.000E-01
+incomplete factorization level                  =          0
+max. number of solver iterations                =        100
+solver information level                        =          1
+solver residual tolerance                       =  1.000E-07
+solver update tolerance                         =  1.000E-07
+reverse Cuthill McKee ordering
+
+------------------------------------------------------------------------
+output control
+------------------------------------------------------------------------
+
+number of output times for spatial data         =          4
+specified output times for spatial data:          
+
+T =  1.000E+01 days        
+T =  2.000E+01 days        
+T =  3.000E+01 days        
+T =  1.500E+02 days        
+
+output of transient data:
+
+number of time steps between output of          =          0
+transient data
+number of spatial locations for output of       =          0
+transient data
+control volume numbers and spatial locations:
+
+
+output in terms of elevation
+
+------------------------------------------------------------------------
+physical parameters - porous medium
+------------------------------------------------------------------------
+
+number of material property zones               =          2
+
+material property zone 1: A
+------------------------------------------------------------------------
+porosity                                        =  5.400E-01
+
+material property zone 2: B
+------------------------------------------------------------------------
+porosity                                        =  4.500E-01
+check control volume: material property
+
+------------------------------------------------------------------------
+physical parameters - variably saturated flow
+------------------------------------------------------------------------
+
+
+material property zone 1: A
+------------------------------------------------------------------------
+saturated hydraulic conductivity K_xx           =  1.000E-05
+saturated hydraulic conductivity K_zz           =  1.000E-05
+specific storage coefficient                    =  0.000E+00
+
+van genuchten parameters:
+alpha                                           =  1.000E+00
+beta                                            =  1.560E+00
+gamma                                           =  3.590E-01
+expn                                            =  5.000E-01
+air entry pressure                              =  0.000E+00
+
+material property zone 2: B
+------------------------------------------------------------------------
+saturated hydraulic conductivity K_xx           =  1.000E-05
+saturated hydraulic conductivity K_zz           =  2.000E-05
+specific storage coefficient                    =  0.000E+00
+
+van genuchten parameters:
+alpha                                           =  1.000E+00
+beta                                            =  1.600E+00
+gamma                                           =  3.750E-01
+expn                                            =  5.000E-01
+air entry pressure                              =  0.000E+00
+
+------------------------------------------------------------------------
+initial condition - variably saturated flow
+------------------------------------------------------------------------
+
+number of zones for initial condition           =          1
+check control volume: initial condition - variably saturated flow
+
+for detailed output see file transp-updrld_0.gsp
+
+------------------------------------------------------------------------
+boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+number of boundary zones                        =          2
+
+zone 1: Top                                                                     
+------------------------------------------------------------------------
+volume   boundary type   specified flux
+
+   871   second          1.724E-09
+   872   second          3.448E-09
+   873   second          3.448E-09
+   874   second          3.448E-09
+   875   second          3.448E-09
+   876   second          3.448E-09
+   877   second          3.448E-09
+   878   second          3.448E-09
+   879   second          3.448E-09
+   880   second          3.448E-09
+   881   second          3.448E-09
+   882   second          3.448E-09
+   883   second          3.448E-09
+   884   second          3.448E-09
+   885   second          3.448E-09
+   886   second          3.448E-09
+   887   second          3.448E-09
+   888   second          3.448E-09
+   889   second          3.448E-09
+   890   second          3.448E-09
+   891   second          3.448E-09
+   892   second          3.448E-09
+   893   second          3.448E-09
+   894   second          3.448E-09
+   895   second          3.448E-09
+   896   second          3.448E-09
+   897   second          3.448E-09
+   898   second          3.448E-09
+   899   second          3.448E-09
+   900   second          1.724E-09
+
+zone 2: bottom                                                                  
+------------------------------------------------------------------------
+volume   boundary type   hydraulic head
+
+     1   first          -1.000E+01
+     2   first          -1.000E+01
+     3   first          -1.000E+01
+     4   first          -1.000E+01
+     5   first          -1.000E+01
+     6   first          -1.000E+01
+     7   first          -1.000E+01
+     8   first          -1.000E+01
+     9   first          -1.000E+01
+    10   first          -1.000E+01
+    11   first          -1.000E+01
+    12   first          -1.000E+01
+    13   first          -1.000E+01
+    14   first          -1.000E+01
+    15   first          -1.000E+01
+    16   first          -1.000E+01
+    17   first          -1.000E+01
+    18   first          -1.000E+01
+    19   first          -1.000E+01
+    20   first          -1.000E+01
+    21   first          -1.000E+01
+    22   first          -1.000E+01
+    23   first          -1.000E+01
+    24   first          -1.000E+01
+    25   first          -1.000E+01
+    26   first          -1.000E+01
+    27   first          -1.000E+01
+    28   first          -1.000E+01
+    29   first          -1.000E+01
+    30   first          -1.000E+01
+
+statistics - variably saturated flow ...
+------------------------------------------------------------------------
+
+total number of Newton iterations       =        787
+total number of solver iterations       =       7031
+
+general run specific statistics ...
+------------------------------------------------------------------------
+
+number of failed time steps             =          1
+total number of time steps              =        177
+total number of coupling iterations     =        178
+cputime  =  2.25 sec
+------------------------------------------------------------------------
+
+         ***************** normal exit ******************
+
+

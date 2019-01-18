@@ -1,0 +1,6 @@
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/obj/x86/Release/MIN3PBenchmark.csproj.CoreCompileInputs.cache
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/bin/Release/MIN3PBenchmark.exe
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/bin/Release/DifferenceEngine.dll
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/obj/x86/Release/MIN3PBenchmark.csprojAssemblyReference.cache
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/obj/x86/Release/MIN3PBenchmark.csproj.CopyComplete
+/home/dsu/Dropbox/ParallelDevelop/AuxiliaryPrograms/FileDifferCompare_Mono/FileDifferCompare/MIN3PBenchmark/obj/x86/Release/MIN3PBenchmark.exe

@@ -1,0 +1,189 @@
+#Program     : MIN3P-HPC.
+#Version     : 1.0.672.0
+#Commit date : 2019/01/18 12:42:29
+#Build date  : 2019/01/18 13:21:54
+#Repository  : https://biot.eos.ubc.ca/svn/min3p_thcm/branches/dsu_new_add_18dec
+#Platform    : Release_X64
+#System      : Default
+#Solver      : WS209
+#Parallel    : Sequential
+generic output file for dataset transp-updrld
+
+------------------------------------------------------------------------
+global control parameters
+------------------------------------------------------------------------
+
+transpiration 1D couplage rld                                           
+
+simulation of:
+transient variably saturated flow 
+
+------------------------------------------------------------------------
+spatial discretization
+------------------------------------------------------------------------
+
+
+spatial discretization for global grid
+number of control volumes in x-direction        =          1
+number of control volumes in y-direction        =          1
+number of control volumes in z-direction        =        500
+total number of control volumes                 =        500
+
+------------------------------------------------------------------------
+time step control - global system
+------------------------------------------------------------------------
+
+start time of simulation                        =  0.000E+00 days        
+initial time step                               =  1.000E-10 days        
+max. time step                                  =  1.000E+00 days        
+min. time step                                  =  1.000E-10 days        
+
+------------------------------------------------------------------------
+control parameters - variably saturated flow
+------------------------------------------------------------------------
+
+input of boundary and initial conditions in terms of hydraulic head
+upstream weighting of relative permeabilities        
+increment for numerical differentiation         =  1.000E-04
+max. number of newton iterations                =         15
+convergence tolerance                           =  1.000E-06
+anticipated change in saturation per time step  =  1.000E-01
+incomplete factorization level                  =          0
+max. number of solver iterations                =        100
+solver information level                        =          1
+solver residual tolerance                       =  1.000E-07
+solver update tolerance                         =  1.000E-07
+reverse Cuthill McKee ordering
+
+------------------------------------------------------------------------
+output control
+------------------------------------------------------------------------
+
+number of output times for spatial data         =          4
+specified output times for spatial data:          
+
+T =  1.000E+00 days        
+T =  4.000E+00 days        
+T =  7.000E+00 days        
+T =  5.000E+01 days        
+
+output of transient data:
+
+number of time steps between output of          =          0
+transient data
+number of spatial locations for output of       =          0
+transient data
+control volume numbers and spatial locations:
+
+
+output in terms of elevation
+
+------------------------------------------------------------------------
+physical parameters - porous medium
+------------------------------------------------------------------------
+
+number of material property zones               =          2
+
+material property zone 1: A
+------------------------------------------------------------------------
+porosity                                        =  5.400E-01
+
+material property zone 2: B
+------------------------------------------------------------------------
+porosity                                        =  4.500E-01
+check control volume: material property
+
+------------------------------------------------------------------------
+physical parameters - variably saturated flow
+------------------------------------------------------------------------
+
+
+material property zone 1: A
+------------------------------------------------------------------------
+saturated hydraulic conductivity K_zz           =  1.000E-05
+specific storage coefficient                    =  0.000E+00
+
+van genuchten parameters:
+alpha                                           =  1.000E+00
+beta                                            =  1.560E+00
+gamma                                           =  3.590E-01
+expn                                            =  5.000E-01
+air entry pressure                              =  0.000E+00
+
+material property zone 2: B
+------------------------------------------------------------------------
+saturated hydraulic conductivity K_zz           =  2.000E-05
+specific storage coefficient                    =  0.000E+00
+
+van genuchten parameters:
+alpha                                           =  1.000E+00
+beta                                            =  1.600E+00
+gamma                                           =  3.750E-01
+expn                                            =  5.000E-01
+air entry pressure                              =  0.000E+00
+
+------------------------------------------------------------------------
+initial condition - variably saturated flow
+------------------------------------------------------------------------
+
+
+for detailed output see file transp-updrld_0.gsp
+
+------------------------------------------------------------------------
+boundary conditions - variably saturated flow
+------------------------------------------------------------------------
+
+number of boundary zones                        =          2
+
+zone 1: Top                                                                     
+------------------------------------------------------------------------
+volume   boundary type   specified flux
+
+   500   second          1.000E-07
+
+zone 2: bottom                                                                  
+------------------------------------------------------------------------
+volume   boundary type   hydraulic head
+
+     1   first          -1.000E+01
+ steady vegetation
+
+global transpiration parameters
+fitting parameter rew0(1):                        =  2.000E+00
+fitting parameter p1(1):                           = -2.000E+00
+canopy evaporation factor:                      =  1.000E-01
+
+
+correction method for water stress :            =1
+
+
+root uptake parameters:
+saturation at wilting point:                    =  1.996E-01
+saturation at field capacity:                   =  8.128E-01
+root length density         :                   =  1.000E-01
+
+
+root uptake parameters:
+saturation at wilting point:                    =  2.047E-01
+saturation at field capacity:                   =  8.089E-01
+root length density         :                   =  2.000E-01
+
+
+statistics - variably saturated flow ...
+------------------------------------------------------------------------
+
+total number of Newton iterations       =        320
+total number of solver iterations       =        320
+
+general run specific statistics ...
+------------------------------------------------------------------------
+
+number of failed time steps             =          0
+total number of time steps              =         69
+total number of coupling iterations     =         69
+cputime  =  0.62 sec
+------------------------------------------------------------------------
+
+         ***************** normal exit ******************
+
+
