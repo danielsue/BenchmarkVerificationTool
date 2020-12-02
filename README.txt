@@ -1,0 +1,173 @@
+========================================================================
+    Fortran Console Application : "DrainageAnalysis" Project Overview
+    Author: Danyang Su 
+    Email: danyang.su@gmail.com
+========================================================================
+
+The code is written in C# and can be compiled on Windows using Visual Studio and on Linux using Monodevelop.
+
+This program is used for automatically running benchmarking examples and comparing results with the reference results. It is originally developed as a verification tool for reactive transport code MIN3P. For this specific purpose, MIN3P verification examples are provided. User can modify the code accordingly for the verification of command based executable files. The results comparison is line based and can be compared by either text or decimal. Please go to example for detail. An example of the input file is shown below. 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! "!" is the comment charcter.                                   !!!
+!!! This file contains the input parameters to run MIN3P benchmark !!!
+!!! and then compare the result to the reference benchmark.        !!!
+!!! Relative path is acceptable, command line is case-insensitive  !!!
+!!! and Data line is case-sensitive.                               !!!
+!!! At present, binary data (e.g., *.exe) cannot be compared,      !!!
+!!! these files are ignored in compare.                            !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!         The following commands are used in global              !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Set number of threads that min3p and result compare can be 
+! simultaneously ran by multi-threads.
+! Default number of threads: 1
+! Required if you want to use more than 1 threads. 
+NUMBER OF THREADS
+3
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!         The following commands are used in run MIN3P           !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Run MIN3P simulation.
+! comment out the following command if MIN3P running is not necessary,
+! for example, if you only need to compare the result (already exist).
+! Required if you want to run MIN3P simulation.
+RUN MIN3P SIMULATION
+
+! Specify the extension file name for MIN3P input file, e.g, "*.dat".
+! Required only if you need to run result compare.
+EXTENSION FILE NAME OF MIN3P INPUT
+.dat
+! Specify the ignored files with the same extension as min3p input files
+IGNORE FILES OF MIN3P INPUT
+1
+root.dat
+
+! Run MIN3P simulation test.
+! Specify the MIN3P executable program path.
+! Required only if you need to run MIN3P simulation.
+MIN3P EXECUTABLE PROGRAM PATH
+./MIN3P-Cases/min3p-hpc-seq
+
+! Specify destination folder (MIN3P simulation result folder)
+! This folder contains all the examples that need to be run by MIN3P.
+! Required in both MIN3P simulation and result compare.
+! Please do NOT include the last slash (/) (NOT: ./../Dest/)
+DESTINATION FOLDER
+./MIN3P-Cases/New
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!       The following commands are used in result compare        !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Run MIN3P simulation compare.
+! Comment out the following command if result compare is not necessary.
+! Required if you want to run result compare.
+RUN RESULT COMPARE
+
+! Specify the source folder (Referenced result folder)
+! This folder contains all the refenenced examples and results.
+! Required only if you need to run result compare.
+! Please do NOT include the last slash (/).
+SOURCE FOLDER
+./MIN3P-Cases/Old
+
+! Specify the folder to store the result compare difference.
+! The exist files in this folder will be replaced, but not deleted.
+! This folder will be created by program if not exist.
+! Required only if you need to run result compare.
+RESULT COMPARE STORE DIFFERENCE FOLDER
+./MIN3P-Cases/Difference
+
+! Specify if you need to export the detail difference report.
+! By default, result compare only export the difference summary,
+! Indicating which file is changed.
+EXPORT RESULT DIFFERENCE DETAIL REPORT
+
+! Specify if you need to ignore the missing files in
+! destination folder (MIN3P simulation result folder),
+! by default, the missing files are considered in result compare.
+! Required only if you need to run result compare.
+! IGNORE MISSING FILES IN RESULT FOLDER
+
+! Specify if you need to ignore the missing files in
+! Referenced result folder (Source folder),
+! by default, the missing files are considered in result compare.
+! Required only if you need to run result compare.
+! IGNORE MISSING FILES IN REFERENCED RESULT FOLDER
+
+! Specify the ignored files in result compare.
+! Start with the number of ignored file extension names, 
+! and followed by extension names.
+! Required only if you need to run result compare
+IGNORE FILES IN RESULT COMPARE
+8
+.exe
+.bat
+.tmp1
+.tmp2
+.lay
+.png
+.xls
+.wmf
+
+! Ignore lines start with specified string in special file. 
+! This commands can be repeated.
+! Start with file extension names and followed by number 
+! of ignored strings and ignored strings.
+! Required only if you need to run result compare.
+
+IGNORE LINES START IN SPECIAL FILES
+.log
+1
+cputime  =
+
+!IGNORE LINES START IN SPECIAL FILES
+!.gen
+!2
+!charge balance error:
+!cputime  =
+
+! Mix value text compare is smarter than text compare
+! e.g., "0.2648112-313" and "0.0000000E+00" are treated the same as value compare.
+! e.g., "siderite(d)        0.000        3.4900E-04" and 
+! "siderite(d)       -0.000        3.4900E-04" are treated the same
+! Note: space is the separator of values and it is ignored in comparison.
+! Mix value text compare is more time consuming
+MIX VALUE TEXT COMPARE TOLERANCE
+1.0E-200
+
+! Mix value text compare is smarter than text compare
+! e.g., "1.234567e-20" and "1.234566e-20" are treated the same as value compare 
+! as relative error is 0.000001e-20/1.234567e-20 < 1.0e-5
+! Note: space is the separator of values and it is ignored in comparison.
+! Mix value text compare is more time consuming
+!MIX VALUE TEXT COMPARE RELATIVE TOLERANCE
+!1.0E-5
+
+! Set global best match compare mode, this allow the comparison in different lines.
+! By default, the program will use same line to line compare mode, this allow the 
+! comparison in the same lines. Please note that global best match compare is much 
+! more time consumer especially for the large files with bad-match lines.
+! It is suggested to use same line to line compare mode.
+! e.g., (required if use this), GLOBAL BEST MATCH COMPARE MODE
+! e.g., (not required is use this), SAME LINE COMPARE MODE
+! GLOBAL BEST MATCH COMPARE MODE
+
+! Set the difference collection mode. By default, the program will collect all the
+! differences. For large files with millions of difference, this will take a long time
+! especially when mix value text compare is invoked. 
+! It is suggested to collect the first 100 differences.
+! The following commands collect all the firtst n difference. 
+! If n = 0, it will collect all the difference.
+! e.g., DIFFERENCE COLLECTION MODE 
+!       n
+DIFFERENCE COLLECTION MODE
+100
+
+
